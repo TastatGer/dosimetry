@@ -2,6 +2,8 @@
 a simple monta carlo simulation for a perfect detector from an isotropic source and an infinetly large carbon absorber inbetween.
 The programm generates an energy spectra and a local resolution of the events on the detector. The detector can be shifted and 
 the thicknes of the absorber can be changed. 
+The Programm requires crossections for the absorber, usually available at the NIST XCOM database.
+Only incoherent scattering and photoelectric absorption are simulated and additionaly only energys above 10keV. 
 
 #Dependencies
   python 3.9.13
