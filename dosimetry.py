@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Nov  2 21:26:16 2023
+Created on Thu Nov  7 22:03:40 2023
 
 Das Programm ist eine einfache Monte-Carlo-Simulation für Photonen, die einen
 Absorber durchdringen und auf ein ideal absorbierenden Detektor 
@@ -14,7 +14,7 @@ Zur Vereinfachung werden nur die inkohärente Streuung und der Photoelektrische
 Effekt berücksichtigt. Zusätzlich wird die Berechnung bei Photonen 
 unter einer Energie von 0.01 MeV abgebrochen und als absorbiert betrachtet.
 
-@author: NR
+@author: Tastat
 """
 
 import numpy as np
